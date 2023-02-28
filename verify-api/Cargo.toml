@@ -1,0 +1,17 @@
+[package]
+name = "verify-api"
+version = "0.1.0"
+edition = "2021"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+dotenv = "0.15.0"
+serde = "1.0.152"
+chrono = "0.4.23"
+reqwest = "0.11.14"
+redis = "0.22.3"
+
+[dependencies.rocket]
+version = "0.5.0-rc.2"
+features = ["json"]
