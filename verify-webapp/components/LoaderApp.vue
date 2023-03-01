@@ -14,7 +14,6 @@
     left: 0;
     height: 100%;
     width: 100%;
-    ;
 }
 
 .loader-name {
@@ -32,7 +31,7 @@
     sans-serif;
     text-transform: uppercase;
     letter-spacing: 0.1em;
-    color: #fefefe;
+    @apply text-black dark:text-white;
 }
 
 .loader-circle {
